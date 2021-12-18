@@ -1,0 +1,49 @@
+.myDiv {
+font-family:'Roboto Mono', monospace ;
+
+}
+
+h2 {
+    font-family:'Roboto Mono', monospace ;
+    color: blue;
+}
+p {
+    font-family:'Roboto Mono', monospace ;
+}
+h3 {
+    font-family:'Roboto Mono', monospace ;
+    color: green;
+}
+h4 {
+    font-family:'Roboto Mono', monospace ;
+}
+.myContactDiv {
+
+font-family:'Roboto Mono', monospace ;
+}
+
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  img {
+      /* float: left; */
+      /* width:  1000px; */
+      height: 500px;
+      object-fit: cover;
+      background-size: cover;
+  }
+
+  @media screen and (max-width: 500px) {
+      .column {
+          width: 100%;
+      }
+  }
+
+
+
